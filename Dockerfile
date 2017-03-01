@@ -8,6 +8,7 @@ ADD . /var/website
 WORKDIR /var/website/app
 
 RUN npm install
+RUN /bin/bash
 
 EXPOSE 14330
 
