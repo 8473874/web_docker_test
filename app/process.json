@@ -1,0 +1,13 @@
+{
+  "apps": [{
+    "name": "nodetest",
+    "script": "./bin/www",
+    "watch": false,
+    "env": {
+      "NODE_ENV": "test",
+    },
+    "env_production": {
+      "NODE_ENV": "production"
+    }
+  }]
+}

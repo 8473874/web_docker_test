@@ -1,0 +1,17 @@
+{
+  "dev": {
+    "name": "Koa测试-dev",
+    "version": "201607291159",
+    "assets": "/public"
+  },
+  "test": {
+    "name": "Koa测试-test",
+    "version": "201607291159",
+    "assets": "/public"
+  },
+  "pro": {
+    "name": "Koa测试-pro",
+    "version": "201607291159",
+    "assets": "/public"
+  }
+}
