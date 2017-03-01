@@ -3,6 +3,7 @@
     "name": "nodetest",
     "script": "./bin/www",
     "watch": false,
+    "cwd": "/var/website/app",
     "env": {
       "NODE_ENV": "test",
     },
