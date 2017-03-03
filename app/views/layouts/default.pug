@@ -1,0 +1,11 @@
+doctype html
+html(lang='zh-cn')
+  head
+    include ../partials/head.pug
+    block title
+      title #{config.name}
+    block styles
+  body
+    block content
+    include ../partials/footer.pug
+    block scripts
