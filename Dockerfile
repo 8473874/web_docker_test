@@ -1,4 +1,4 @@
-FROM registry-internal.cn-shenzhen.aliyuncs.com/zerolab/web-ogailo
+FROM registry.cn-shenzhen.aliyuncs.com/zerolab/alp_nodejs
 # RUN apk update && apk upgrade
 # RUN apk add bash
 # RUN apk add nodejs
