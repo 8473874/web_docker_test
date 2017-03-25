@@ -41,6 +41,7 @@ app.use(async (ctx, next) => {
   await next();
   if (ctx.response.status == 404) {
     await ctx.render('404');
+    ctx.status = 404;
   }
 });
 
