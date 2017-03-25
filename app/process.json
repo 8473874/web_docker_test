@@ -4,6 +4,8 @@
     "script": "./bin/www",
     "watch": false,
     "cwd": ".",
+    "out_file": "/dev/null",
+    "error_file": "/dev/null",
     "env_test": {
       "NODE_ENV": "test",
     },
